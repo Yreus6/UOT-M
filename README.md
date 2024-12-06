@@ -4,6 +4,15 @@
 
 ![UOT-M](md-files/uotm-loc.png)
 
+## Installation
+The recommended install is as follows:
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Usage
 UOT-M algorithm is presented in the `uot_m.py`. The demo is shown in `demo.ipynb`:
 ```python
 from uot_m import den2seq
